@@ -1,22 +1,130 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-}
+  header{
+    color:black;
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 60px;
+    margin-top: 15px;
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+    #header2{
+      color:black;
+      text-align: center;
+      font-family: 'Aref Ruqaa', serif;
+      font-size: 30px;
+      margin: 0; 
+      padding-top: 0;
+      }
+
+.circles{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 10px;
+
 }
 
-.App-link {
-  color: #09d3ac;
+.circle{
+  display: flex;
+  flex-direction: row;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 20px 80px;
+  box-shadow: inset;
+
 }
+
+#circle-bg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 20px 80px;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.category{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgba(f,f,f,.8);  
+  color: black;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  font-family: 'Aref Ruqaa', serif;
+}
+
+.category  {
+  text-align: center;
+  font-size: 40px;
+
+}
+
+#circle-bg:hover,
+#circle-bg:focus {
+  transform: scale(1.1);
+}
+
+#nav-bar button{
+  height: 30px;
+  width: 15vw;
+  background-color: rgb(0,0,0) ;
+  color: white;
+  font-family: 'Aref Ruqaa', serif;
+  border: 1px solid rgb(0,0,0);
+  outline: none;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  }
+
+  input{
+  height: 25px;
+  width: 15vw;
+  background: url(https://66.media.tumblr.com/0fc7f3b70dc9265b3d20fb056079a2da/d89e81bad6f98697-fb/s540x810/561a18c00b35ab7db09fee4ecf2e9323878e7f71.png)  no-repeat;
+  background-size: 25px;
+  padding: 0 5px 0 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(0,0,0);
+  outline: none;
+  direction: rtl;
+  font-size: smaller;
+}
+
+#author{
+    font-family: 'Aref Ruqaa', serif;
+}
+
+@media (max-width: 450px) {
+  header{
+    font-size: 35px;
+    margin: 20px;
+  }
+  #header2{
+    font-size: 30px;
+  }
+  #nav-bar{
+    flex-direction: column-reverse;
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+  #nav-bar button{
+    text-align: center;
+    width: 50vw;
+    margin: 20px auto;
+  }
+  input{
+    margin: auto;
+    width: 50vw;
+    font-size: 14px;
+  }
+}
+
+

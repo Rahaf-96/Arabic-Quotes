@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Arabic-Quotes/static/css/main.4102ae8a.chunk.css",
+    "main.js": "/Arabic-Quotes/static/js/main.f804ec8b.chunk.js",
+    "main.js.map": "/Arabic-Quotes/static/js/main.f804ec8b.chunk.js.map",
+    "runtime-main.js": "/Arabic-Quotes/static/js/runtime-main.d119671c.js",
+    "runtime-main.js.map": "/Arabic-Quotes/static/js/runtime-main.d119671c.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/Arabic-Quotes/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.659111b4.chunk.js": "/Arabic-Quotes/static/js/2.659111b4.chunk.js",
+    "static/js/2.659111b4.chunk.js.map": "/Arabic-Quotes/static/js/2.659111b4.chunk.js.map",
+    "index.html": "/Arabic-Quotes/index.html",
+    "precache-manifest.da035bb8f3706e1c5dfd342068121cf0.js": "/Arabic-Quotes/precache-manifest.da035bb8f3706e1c5dfd342068121cf0.js",
+    "service-worker.js": "/Arabic-Quotes/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/Arabic-Quotes/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.4102ae8a.chunk.css.map": "/Arabic-Quotes/static/css/main.4102ae8a.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d119671c.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.659111b4.chunk.js",
+    "static/css/main.4102ae8a.chunk.css",
+    "static/js/main.f804ec8b.chunk.js"
+  ]
+}

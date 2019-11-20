@@ -31,7 +31,7 @@ class App extends Component {
   }
 
   render() {
-
+    console.log(QuotesList.length)
     const categoryFilter = QuotesList.filter(quote => {
       return ((quote.category === this.state.category) && (quote.author.toLowerCase().includes(this.state.searchfield.toLowerCase())));
     });
@@ -49,7 +49,7 @@ class App extends Component {
             <div>
               <Header onSearchChange={this.onSearchChange} handleClick={this.handleClick} />
               <Category quotesList={categoryFilter} />
-
+              {console.log(categoryFilter.length)}
             </div>
         }
 
